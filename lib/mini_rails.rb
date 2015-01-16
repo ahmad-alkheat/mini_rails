@@ -1,5 +1,5 @@
 require "mini_rails/version"
-
+require 'mini_rails/controller.rb'
 module MiniRails
   class Application
   	def call(env)
